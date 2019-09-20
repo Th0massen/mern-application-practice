@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.LandingPage{
+  .Content{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.CreatePost{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  .post-field{
+    width: 500px;
+    max-width: 100%;
+    padding: 10px 0 10px 15px;
+  }
+  .post-btn{
+    padding: 9px 15px 9px;
+  }
+}
+
+.Post{
+  border: 1px solid grey;
+  width: 100%;
+  max-width: 550px;
+  box-shadow: 0px 5px 5px rgb(119, 119, 119);
+  margin: 0 0 25px;
+  .text{
+    margin: 20px 15px;
+  }
+  .user{
+    font-size: 12px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+
+.LoginForm{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 10px 20px;
+    border: 1px solid grey;
+    width: 80%;
+    max-width: 500px;
+    align-items: center;
+    .form-title{
+      text-align: left;
+      width: 350px;
+    }
+    .form-label{
+      width: 350px;
+      text-align: left;
+    }
+    .form-element{
+      width: 350px;
+      margin: 5px 0 20px;
+    }
+    .submit-btn{
+      padding: 5px 15px;
+    }
+  }
+}
